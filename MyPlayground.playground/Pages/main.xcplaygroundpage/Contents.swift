@@ -14,7 +14,9 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
-
+func statement (continent:String, numberOfCountries: Int){
+    print ( "\(continent) is a continent which contains \(numberOfCountries) countries.")
+}
 
 
 
@@ -25,7 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny", greeting: "Hello")
 
 
 
@@ -33,7 +35,7 @@ greeting("Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -47,7 +49,9 @@ daysInMonth("November", days: 30)
  */
 // write your code here
 
-
+func slogan (beverage:String, number:Int, place:String){
+    print ("\(number) bottles of \(beverage) on the \(place) wall.")
+}
 
 
 /*:
